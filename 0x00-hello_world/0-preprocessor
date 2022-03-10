@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 #!bin/bash
+=======
+#!/bin/bash
+>>>>>>> 574dbaecf50c485260ba9b701ba74c704f80ed7e
 gcc -E $CFILE > c
