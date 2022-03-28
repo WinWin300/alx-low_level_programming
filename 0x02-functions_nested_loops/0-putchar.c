@@ -1,15 +1,22 @@
-#include <stdio.h>
+#include "holberton.h"
+
 /**
- *main - Entry Point
+ * main- a program that prints Holberton and returns 0
  *
- *Return: Always 0 (Success)
+ *Return: always 0
  */
+
 int main(void)
 {
-char str[] = "_putchar";
-int x;
-for  (x = 0; x < 8; ++x)
-putchar(str[x]);
-putchar('\n');
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('.');
+	_putchar('\n');
+	return (0);
 }
